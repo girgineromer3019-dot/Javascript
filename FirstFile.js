@@ -2,11 +2,11 @@ let name = "Omer"; //It can be changed
 const age = 30; //It cannot be changed
 var city = "New York";  //It can be changed but is old fashion
 //-------------------------------------------------------------//
-let isim = "Ali";       // string
-let yas = 30;          // number
-let aktif = true;     // boolean
-let bos = null;       // null
-let tanimsiz;         // undefined
+let name1 = "Ali";       // string
+let age1 = 30;          // number
+let isActive = true;     // boolean
+let nullValue = null;       // null
+let undefinedValue;         // undefined
 //-------------------------------------------------------------//
 let a = 10;
 let b = 3;
