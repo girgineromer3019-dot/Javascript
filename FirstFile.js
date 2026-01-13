@@ -62,3 +62,15 @@ for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 //-------------------------------------------------------------//
+function sum(x, y) {
+    return x + y;
+}
+
+let sonuc = sum(5, 3); // sonuc 8 olur
+console.log(sonuc);
+//-------------------------------------------------------------//
+let city = ["Istanbul", "Ankara", "Izmir", "Amsterdam"];
+for (let i = 0; i < city.length; i++) {
+    console.log(city[i]);
+}
+//-------------------------------------------------------------//
