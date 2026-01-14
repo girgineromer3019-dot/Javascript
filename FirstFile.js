@@ -74,3 +74,22 @@ for (let i = 0; i < city.length; i++) {
     console.log(city[i]);
 }
 //-------------------------------------------------------------//
+let city1 = ["Istanbul", "Ankara", "Izmir", "Amsterdam"];
+for (let i in city1) {
+    console.log(`index: ${i}, value: ${city1[i]}`)
+}
+//-------------------------------------------------------------//
+let city2 = ["Istanbul", "Ankara", "Izmir", "Amsterdam"];
+city2.forEach(function(value, index) {
+    console.log(`index: ${index}, value: ${value}`);
+});
+//-------------------------------------------------------------//
+let user = [
+    {name: "Omer", age: 30},
+    {name: "Ali", age: 25},
+    {name: "Ayse", age: 28}
+]
+for(let i=0; i < user.length; i++) {
+    console.log(user[i].name);
+}
+//-------------------------------------------------------------//
