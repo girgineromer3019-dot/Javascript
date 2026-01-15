@@ -1,3 +1,12 @@
+//var : Function scoped (fonksiyon içi geçerli), hoisting var, eski tip değişken tanımlama.
+//let : Block scoped (blok içi geçerli), hoisting yok, yeni tip değişken tanımlama.
+//const : Block scoped (blok içi geçerli), hoisting yok, sabit değişken tanımlama.
+// == : Değer karşılaştırması (type coercion var)
+// === : Değer ve tip karşılaştırması (type coercion yok)
+// undefined : Değeri atanmamış değişkenlerin değeri
+// null : Bilinçli olarak boş değeri temsil eder
+//-------------------------------------------------------------//
+
 let name = "Omer"; //It can be changed
 const age = 30; //It cannot be changed
 var city = "New York";  //It can be changed but is old fashion
@@ -91,5 +100,17 @@ let user = [
 ]
 for(let i=0; i < user.length; i++) {
     console.log(user[i].name);
+}
+//-------------------------------------------------------------//
+function greet() {
+    console.log("Hello, welcome!");
+}
+greet();
+//-------------------------------------------------------------//
+data = confirm("Are you sure?");    
+if (data) {
+    console.log("User pressed OK");
+} else {
+    console.log("User pressed Cancel");
 }
 //-------------------------------------------------------------//
