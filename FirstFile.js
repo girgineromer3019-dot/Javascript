@@ -114,3 +114,15 @@ if (data) {
     console.log("User pressed Cancel");
 }
 //-------------------------------------------------------------//
+const user = {
+    name: "Omer",
+    age: 30,
+    city: "New York"
+};
+
+const {name, age, city} = user;
+
+console.log(name); // Omer
+console.log(age);  // 30
+console.log(city); // New York
+//-------------------------------------------------------------//
