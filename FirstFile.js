@@ -126,3 +126,9 @@ console.log(name); // Omer
 console.log(age);  // 30
 console.log(city); // New York
 //-------------------------------------------------------------//
+const colors = ["Red", "Green", "Blue"];
+const [firstColor, secondColor] = colors;
+
+console.log(firstColor);  // Red
+console.log(secondColor); // Green
+//-------------------------------------------------------------//
