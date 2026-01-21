@@ -137,3 +137,24 @@ const arr2 = [...arr1, 4, 5, 6];
 
 console.log(arr2); // [1, 2, 3, 4, 5, 6]
 //-------------------------------------------------------------//
+const add = (x, y, z) => x + y + z;
+console.log(add(2, 3, 4)); // 9
+
+const square = x => x * x;
+console.log(square(5)); // 25
+
+const greet = name => {
+    return `Hello, ${name}!`;
+}
+//-------------------------------------------------------------//
+function Student (name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+const student1 = new Student("Omer", 30);
+const student2 = new Student("Ali", 25);
+
+console.log(student1.name, student1.age); // Omer 30
+console.log(student2.name, student2.age); // Ali 25
+//-------------------------------------------------------------//
