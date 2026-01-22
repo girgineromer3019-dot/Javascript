@@ -158,3 +158,20 @@ const student2 = new Student("Ali", 25);
 console.log(student1.name, student1.age); // Omer 30
 console.log(student2.name, student2.age); // Ali 25
 //-------------------------------------------------------------//
+function Student(name, age) {
+    this.name = name;
+    this.age = age;
+    this.greet = function() { 
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+}
+const student1 = new Student("Omer", 30);
+student1.greet(); // Hello, my name is Omer and I am 30 years old.
+//-------------------------------------------------------------//
+<button id="btn">Click Me</button>
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+    alert("Button was clicked!");
+});
+//-------------------------------------------------------------//
