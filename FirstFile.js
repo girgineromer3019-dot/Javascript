@@ -175,3 +175,7 @@ btn.addEventListener("click", function() {
     alert("Button was clicked!");
 });
 //-------------------------------------------------------------//
+const heading = document.querySelector("h1");
+heading.style.color = "blue";
+heading.textContent = "New Heading Text";
+//-------------------------------------------------------------//
