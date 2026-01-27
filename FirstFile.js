@@ -183,3 +183,14 @@ const paragraph = document.createElement("p");
 paragraph.textContent = "This is a new paragraph.";
 document.body.appendChild(paragraph);
 //-------------------------------------------------------------//
+function Docent(name, age, subject) { 
+    this.name = name;
+    this.age = age;
+    this.subject = subject;
+}
+
+const docent1 = new Docent("Mehmet", 40, "Mathematics");
+console.log(docent1.name); // Mehmet
+console.log(docent1.age);  // 40
+console.log(docent1.subject); // Mathematics
+//-------------------------------------------------------------//
