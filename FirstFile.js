@@ -179,3 +179,7 @@ const heading = document.querySelector("h1");
 heading.style.color = "blue";
 heading.textContent = "New Heading Text";
 //-------------------------------------------------------------//
+const paragraph = document.createElement("p");
+paragraph.textContent = "This is a new paragraph.";
+document.body.appendChild(paragraph);
+//-------------------------------------------------------------//
