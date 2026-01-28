@@ -194,3 +194,6 @@ console.log(docent1.name); // Mehmet
 console.log(docent1.age);  // 40
 console.log(docent1.subject); // Mathematics
 //-------------------------------------------------------------//
+const someRandomnumber = Math.random();
+console.log(someRandomnumber); // 0 ile 1 arasında rastgele sayı
+//-------------------------------------------------------------//
