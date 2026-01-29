@@ -197,3 +197,15 @@ console.log(docent1.subject); // Mathematics
 const someRandomnumber = Math.random();
 console.log(someRandomnumber); // 0 ile 1 arasında rastgele sayı
 //-------------------------------------------------------------//
+console.dir(document);
+// Bunun ile document nesnesinin tüm özelliklerini ve metodlarını görebilirsiniz
+//-------------------------------------------------------------//
+console.log(document.domain);  // Sayfanın domaini
+console.log(document.URL);     // Sayfanın URL'si
+console.log(document.title);   // Sayfanın başlığı
+console.log(document.body);    // Body etiketini getirir
+console.log(document.all);     // Tüm HTML elemanlarını getirir
+console.log(document.forms);   // Sayfadaki formları getirir
+console.log(document.links);   // Sayfadaki linkleri getirir
+console.log(document.images);  // Sayfadaki resimleri getirir
+//-------------------------------------------------------------//
