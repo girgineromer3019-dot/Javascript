@@ -7,8 +7,8 @@
 // null : Bilinçli olarak boş değeri temsil eder
 //-------------------------------------------------------------//
 
-let name = "Omer"; //It can be changed
-const age = 30; //It cannot be changed
+let name2 = "Omer"; //It can be changed
+const age2 = 30; //It cannot be changed
 var city = "New York";  //It can be changed but is old fashion
 //-------------------------------------------------------------//
 let name1 = "Ali";       // string
@@ -93,10 +93,10 @@ city2.forEach(function(value, index) {
     console.log(`index: ${index}, value: ${value}`);
 });
 //-------------------------------------------------------------//
-let user = [
-    {name: "Omer", age: 30},
-    {name: "Ali", age: 25},
-    {name: "Ayse", age: 28}
+let user1 = [
+    {name4: "Omer", age4: 30},
+    {name4: "Ali", age4: 25},
+    {name4: "Ayse", age4: 28}
 ]
 for(let i=0; i < user.length; i++) {
     console.log(user[i].name);
@@ -115,16 +115,16 @@ if (data) {
 }
 //-------------------------------------------------------------//
 const user = {
-    name: "Omer",
-    age: 30,
-    city: "New York"
+    name4: "Omer",
+    age4: 30,
+    city4: "New York"
 };
 
-const {name, age, city} = user;
+const {name4, age4, city4} = user;
 
-console.log(name); // Omer
-console.log(age);  // 30
-console.log(city); // New York
+console.log(name4); // Omer
+console.log(age4);  // 30
+console.log(city4); // New York
 //-------------------------------------------------------------//
 const colors = ["Red", "Green", "Blue"];
 const [firstColor, secondColor] = colors;
