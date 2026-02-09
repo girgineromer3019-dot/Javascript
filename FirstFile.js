@@ -223,3 +223,18 @@ class Person {
 const person1 = new Person("Omer", 30);
 person1.introduce(); // Hello, my name is Omer and I am 30 years old.
 //-------------------------------------------------------------//
+class Docent extends Person {
+    constructor(name, age, subject) {
+        super(name, age); // Person sınıfının constructor'ını çağırır
+        this.subject = subject;
+    }
+
+    teach() {
+        console.log(`${this.name} is teaching ${this.subject}.`);
+    }
+}
+
+const docent1 = new Docent("Mehmet", 40, "Mathematics");
+docent1.introduce(); // Hello, my name is Mehmet and I am 40 years old.
+docent1.teach();     // Mehmet is teaching Mathematics.
+//-------------------------------------------------------------//
