@@ -238,3 +238,10 @@ const docent1 = new Docent("Mehmet", 40, "Mathematics");
 docent1.introduce(); // Hello, my name is Mehmet and I am 40 years old.
 docent1.teach();     // Mehmet is teaching Mathematics.
 //-------------------------------------------------------------//
+function countRabbits(){
+    for(let i = 1; i <= 3; i++){
+        alert("Rabbit number " + i);
+    }
+}
+<input type="button" onclick="countRabbits()" value="Count Rabbits">
+//-------------------------------------------------------------//
